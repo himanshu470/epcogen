@@ -186,7 +186,11 @@ ul {
 
 .section-title {
     margin-top: -15px;
-    margin-bottom: 47px;
+    margin-bottom: 45px;
+}
+.section-title-about {
+    margin-top: -15px;
+    margin-bottom: 0px !important;
 }
 
 .section-title__tagline {
@@ -1971,7 +1975,7 @@ ul {
 .welcome-one__list li {
     position: relative;
     display: flex;
-    align-items: center;
+    align-items: baseline;
 }
 
 .welcome-one__list li+li {
@@ -2053,6 +2057,9 @@ ul {
 /*--------------------------------------------------------------
 # Services One
 --------------------------------------------------------------*/
+.service-top {
+    padding-top: 100px;
+}
 .services-one {
     position: relative;
     display: block;
@@ -2440,7 +2447,7 @@ ul {
 .we-building {
     position: relative;
     display: block;
-    padding: 120px 0 0px;
+    padding: 120px 0 120px;
     z-index: 2;
 }
 
@@ -2800,7 +2807,7 @@ ul {
 .have-questions__list li {
     position: relative;
     display: flex;
-    align-items: center;
+    align-items: baseline;
 }
 
 .have-questions__list li+li {
@@ -4452,7 +4459,7 @@ ul {
     height: 100%;
     width: 100%;
     content: "";
-    background-color: rgba(var(--thm-black-rgb), .85);
+    /*background-color: rgba(var(--thm-black-rgb), .85);*/
     z-index: -1;
 }
 
@@ -4481,7 +4488,7 @@ ul {
 }
 
 .we-building-two__inner .we-building__video-title {
-    margin-top: 63px;
+    line-height: 1.5;
 }
 
 /*--------------------------------------------------------------
@@ -6389,7 +6396,6 @@ ul {
 .service-details__benefits-list li {
     position: relative;
     display: flex;
-    align-items: center;
 }
 
 .service-details__benefits-list li+li {
@@ -6792,11 +6798,6 @@ ul {
     margin: 0;
     line-height: 30px;
     padding-top: 12px;
-}
-
-/*About Page Have Questions*/
-.about-page-have-questions {
-    padding-top: 120px;
 }
 
 /*About Page Team*/
