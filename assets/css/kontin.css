@@ -370,6 +370,14 @@ ul {
     float: left;
 }
 
+.fa-inr {
+    color: #fba919;
+}
+.qualityIcons{
+    font-size: 50px;
+    color: #fba919;
+    padding-right: 25px
+}
 .main-header__top-address {
     position: relative;
     display: flex;
