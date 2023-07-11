@@ -1521,7 +1521,10 @@ ul {
     overflow: hidden;
     position: relative;
 }
-
+.logos {
+    width: 150px;
+    height: 40px;
+}
 .main-slider .swiper-slide {
     position: relative;
     background-color: var(--thm-black);
@@ -2435,6 +2438,7 @@ ul {
     transition: 500ms;
     opacity: 0.3;
     max-width: 100%;
+
 }
 
 .brand-one .swiper-slide img:hover {
