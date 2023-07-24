@@ -2009,8 +2009,8 @@ ul {
 
 .welcome-one__list-text p {
     font-size: 18px;
-    font-weight: 500;
-    color: var(--thm-black);
+    /*font-weight: 500;*/
+    /*color: var(--thm-black);*/
     margin: 0;
 }
 
@@ -4305,24 +4305,14 @@ ul {
     position: relative;
     display: block;
     overflow: hidden;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    filter: grayscale(100%);
 }
 
-.team-one__img:before {
-    position: absolute;
-    content: "";
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    background-color: rgba(var(--thm-black-rgb), .40);
-    transition-delay: .1s;
-    transition-timing-function: ease-in-out;
-    transition-duration: .5s;
-    transition-property: all;
-    transform-origin: bottom;
-    transform-style: preserve-3d;
-    transform: scaleY(0);
-    z-index: 1;
+.team-one__img:hover {
+    filter: grayscale(0%);
 }
 
 .team-one__single:hover .team-one__img:before {
@@ -6427,8 +6417,8 @@ ul {
 
 .service-details__benefits-list li .text p {
     font-size: 18px;
-    color: var(--thm-black);
-    font-weight: 500;
+    /*color: var(--thm-black);*/
+    /*font-weight: 500;*/
     margin: 0;
 }
 

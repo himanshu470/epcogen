@@ -38,7 +38,8 @@
     <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css"/>
     <link rel="stylesheet" href="assets/vendors/timepicker/timePicker.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <!-- template styles -->
     <link rel="stylesheet" href="assets/css/kontin.css"/>
     <link rel="stylesheet" href="assets/css/kontin-responsive.css"/>
@@ -69,7 +70,7 @@
                                     <span class="icon-email"></span>
                                 </div>
                                 <div class="text">
-                                    <a href="mailto:needhelp@kontin.com">info@epcogen.com</a>
+                                    <a href="mailto:info@epcogen.com">info@epcogen.com</a>
                                 </div>
                             </li>
                         </ul>
@@ -233,7 +234,7 @@
                     <div class="we-building-two__inner">
                         <h2 class="section-title-about">VISION</h2>
                         <h2 class="we-building__video-title">Epcogen Pvt Ltd aspires to be a reputed international<br>
-                            engineering services provider,offering design and detailing<br> solutions to all Process
+                            Engineering services provider, offering design and detailed<br> solutions to all Process
                             Industries.</h2>
                     </div>
                 </div>
@@ -418,122 +419,334 @@
 
     <!--Team One Start-->
     <section class="team-one about-page-team">
-        <div class="team-one__container">
+        <div class="container">
             <div class="section-title text-center">
                 <span class="section-title__tagline">Meet the pro team</span>
                 <h2 class="section-title__title">Professional Contractors</h2>
             </div>
             <div class="row">
-                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0ms"
-                     data-wow-duration="1000ms">
+                <div class="col-xl-3 col-lg-4 col-md-4 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1000ms">
                     <!--Team One Single-->
-                    <div class="team-one__single">
+                    <div class="team-one__single" data-bs-toggle="modal" data-bs-target="#exampleKrishna">
                         <div class="team-one__img">
-                            <img src="assets/images/team/team-page-img-1.jpg" alt="">
+                            <div>
+                                <img src="assets/images/team/team-page-img-3.jpg" alt="">
+                            </div>
                             <div class="team-one__social">
-                                <a href="#"><i class="fab fa-twitter"></i></a>
                                 <a href="#"><i class="fab fa-facebook"></i></a>
-                                <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.linkedin.com/in/krishna-k-r-s-r-6b98b231/"><i
+                                        class="fab fa-linkedin"></i></a>
                             </div>
                         </div>
                         <div class="team-one__content">
-                            <h3 class="team-one__name">R. PASUPATHI</h3>
-                            <p class="team-one__title">CHIEF INFORMATION FINANCE OFFICER</p>
+                            <h3 class="team-one__name">KRSR KRISHNA</h3>
+                            <p class="team-one__title">MANAGING DIRECTOR</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="100ms"
+                <!-- Modal for KRSR KRISHNA starts here-->
+                <div class="modal modal-lg modal-dialog-scrollable fade align-items-center" id="exampleKrishna"
+                     tabindex="-1" aria-labelledby="exampleModalKrishna" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalKrishna">KRSR KRISHNA</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="assets/images/team/team-page-img-3.jpg">
+                                        <div>
+                                            <a href="#"><i class="fab fa-facebook"></i></a>
+                                            <a href="https://www.linkedin.com/in/krishna-k-r-s-r-6b98b231/"><i
+                                                    class="fab fa-linkedin"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <ul>
+                                            <li>Founder Member of "Industry Institute Interface" Forum</li>
+                                            <li>Founder of "KPK Foundation"</li>
+                                            <li>Honorary Rotarian - Aditya Chapter - Rotary Club - Chennai - Tamilnadu
+                                            </li>
+                                            <li>Advisory Committee Member in various Engineering Colleges both in Andhra
+                                                Pradesh and Tamilnadu, including SRM University, Sri Venkateswara
+                                                University, Sasi Group of Engineering Colleges, Gudlavalleru Engineering
+                                                College, Akshya Engineering College, SVS Engineering College, SA
+                                                Engineering College etc,.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal for KRSR KRISHNA ends here-->
+
+                <div class="col-xl-3 col-lg-4 col-md-4 wow fadeInLeft" data-wow-delay="100ms"
                      data-wow-duration="1000ms">
                     <!--Team One Single-->
-                    <div class="team-one__single">
+                    <div class="team-one__single" data-bs-toggle="modal" data-bs-target="#examplePaul">
                         <div class="team-one__img">
                             <img src="assets/images/team/team-page-img-2.jpg" alt="">
                             <div class="team-one__social">
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-facebook"></i></a>
-                                <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.facebook.com/paul.saravanan.35"><i class="fab fa-facebook"></i></a>
+                                <a href="https://www.linkedin.com/in/paul-saravanan-victor-8a721839/"><i
+                                        class="fab fa-linkedin"></i></a>
                             </div>
                         </div>
                         <div class="team-one__content">
-                            <h3 class="team-one__name">PAUL</h3>
+                            <h3 class="team-one__name">PAUL SARAVANAN</h3>
                             <p class="team-one__title">REGIONAL DIRECTOR - BENGALURU</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="0ms"
+                <!-- Modal for PAUL SARAVANAN starts here-->
+                <div class="modal modal-lg modal-dialog-scrollable fade align-items-center" id="examplePaul"
+                     tabindex="-1" aria-labelledby="exampleModalPaul" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalPaul">PAUL SARAVANAN</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="assets/images/team/team-page-img-2.jpg">
+                                        <div>
+                                            <a href="https://www.facebook.com/paul.saravanan.35"><i
+                                                    class="fab fa-facebook"></i></a>
+                                            <a href="https://www.linkedin.com/in/paul-saravanan-victor-8a721839/"><i
+                                                    class="fab fa-linkedin"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <ul>
+                                            <p>Experienced Project Control Specialist with a demonstrated history of
+                                                working in the oil & energy industry. Strong program and project
+                                                management professional skilled in Petroleum, Progress Monitoring,
+                                                Project Implementation, Contract Management, and EPC.</p>
+                                            <li>Over 30 (Thirty) years of experience in Project Controls and Project
+                                                Execution for EPC of Oil & Gas and Petrochemicals. Experience covers
+                                                Project Execution, planning and scheduling
+                                            </li>
+                                            <li>Presently working in Petrofac Chennai, heading project controls team,
+                                                and executing proposal engineering and project engineering for oil & gas
+                                                industries. Handling Lump-sum / Re-disbursable Jobs
+                                            </li>
+                                            <li>Previously worked in Petrofac Sharjah for about 8 years executing
+                                                projects in Qatar, Algeria, Azerbaijan for oil & gas industries
+                                            </li>
+                                            <li>Initially worked in Tamilnadu Petroproducts Limited Chennai for about 8
+                                                years executing Projects and Capital Projects for Petrochemicals and
+                                                pipelines
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal for PAUL SARAVANAN ends here-->
+
+                <div class="col-xl-3 col-lg-4 col-md-4 wow fadeInRight" data-wow-delay="0ms"
                      data-wow-duration="1000ms">
                     <!--Team One Single-->
-                    <div class="team-one__single">
+                    <div class="team-one__single" data-bs-toggle="modal" data-bs-target="#exampleM">
                         <div class="team-one__img">
-                            <img src="assets/images/team/team-page-img-3.jpg" alt="">
+                            <img src="assets/images/team/team-page-img-5.jpg" alt="">
                             <div class="team-one__social">
-                                <a href="#"><i class="fab fa-twitter"></i></a>
                                 <a href="#"><i class="fab fa-facebook"></i></a>
-                                <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-one__content">
+                            <h3 class="team-one__name">M. CHANDRASHEKAR</h3>
+                            <p class="team-one__title">REGIONAL DIRECTOR - BENGALURU</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal for M. CHANDRASHEKAR starts here-->
+                <div class="modal modal-lg modal-dialog-scrollable fade align-items-center" id="exampleM"
+                     tabindex="-1" aria-labelledby="exampleModalM" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalM">M. CHANDRASHEKAR</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="assets/images/team/team-page-img-5.jpg">
+                                        <div>
+                                            <a href="#"><i class="fab fa-facebook"></i></a>
+                                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <ul>
+                                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua.
+                                            </li>
+                                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal for M. CHANDRASHEKAR ends here-->
+
+                <div class="col-xl-3 col-lg-4 col-md-4 wow fadeInLeft" data-wow-delay="100ms"
+                     data-wow-duration="1000ms">
+                    <!--Team One Single-->
+                    <div class="team-one__single" data-bs-toggle="modal" data-bs-target="#exampleR">
+                        <div class="team-one__img">
+                            <img src="assets/images/team/team-page-img-1.jpg" alt="">
+                            <div class="team-one__social">
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
                             </div>
                         </div>
                         <div class="team-one__content">
                             <h3 class="team-one__name">R. PASUPATHI</h3>
-                            <p class="team-one__title">PROJECT DIRECTOR</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="100ms"
-                     data-wow-duration="1000ms">
-                    <!--Team One Single-->
-                    <div class="team-one__single">
-                        <div class="team-one__img">
-                            <img src="assets/images/team/team-page-img-4.jpg" alt="">
-                            <div class="team-one__social">
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-facebook"></i></a>
-                                <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="team-one__content">
-                            <h3 class="team-one__name">ADITYA KESANUPALLI</h3>
                             <p class="team-one__title">CHIEF INFORMATION FINANCE OFFICER</p>
                         </div>
                     </div>
                 </div>
+                <!-- Modal for R. PASUPATHI starts here-->
+                <div class="modal modal-lg modal-dialog-scrollable fade align-items-center" id="exampleR"
+                     tabindex="-1" aria-labelledby="exampleModalR" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalR">R. PASUPATHI</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="assets/images/team/team-page-img-1.jpg">
+                                        <div>
+                                            <a href="#"><i class="fab fa-facebook"></i></a>
+                                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <ul>
+                                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua.
+                                            </li>
+                                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal for R. PASUPATHI ends here-->
 
                 <div id="welcomeDiv" style="display:none;">
                     <div id="viewAll" class="d-flex">
-                        <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInRight p-3" data-wow-delay="0ms"
+                        <div class="col-xl-3 col-lg-4 col-md-4 wow fadeInRight" data-wow-delay="0ms"
                              data-wow-duration="1000ms">
                             <!--Team One Single-->
-                            <div class="team-one__single">
+                            <div class="team-one__single" data-bs-toggle="modal" data-bs-target="#exampleAdtiya">
                                 <div class="team-one__img">
-                                    <img src="assets/images/team/team-page-img-5.jpg" alt="">
+                                    <img src="assets/images/team/team-page-img-4.jpg" alt="">
                                     <div class="team-one__social">
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                        <a href="#"><i class="fab fa-facebook"></i></a>
-                                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                        <a href="#"><i class="fab fa-instagram"></i></a>
+                                        <a href="https://www.facebook.com/aditya.kesanupalli"><i
+                                                class="fab fa-facebook"></i></a>
+                                        <a href="https://www.linkedin.com/in/aditya-kesanupalli/"><i
+                                                class="fab fa-linkedin"></i></a>
                                     </div>
                                 </div>
                                 <div class="team-one__content">
-                                    <h3 class="team-one__name">M. CHANDRASHEKAR</h3>
-                                    <p class="team-one__title">REGIONAL DIRECTOR - BENGALURU</p>
+                                    <h3 class="team-one__name">ADITYA KESANUPALLI</h3>
+                                    <p class="team-one__title">CHIEF INFORMATION FINANCE OFFICER</p>
                                 </div>
                             </div>
                         </div>
+                        <!-- Modal for ADITYA KESANUPALLI starts here-->
+                        <div class="modal modal-lg modal-dialog-scrollable fade align-items-center" id="exampleAdtiya"
+                             tabindex="-1" aria-labelledby="exampleModalAdtiya" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalAdtiya">ADITYA KESANUPALLI</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <img src="assets/images/team/team-page-img-4.jpg">
+                                                <div>
+                                                    <a href="https://www.facebook.com/aditya.kesanupalli"><i
+                                                            class="fab fa-facebook"></i></a>
+                                                    <a href="https://www.linkedin.com/in/aditya-kesanupalli/"><i
+                                                            class="fab fa-linkedin"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <ul>
+                                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                        eiusmod
+                                                        tempor incididunt ut labore et dolore magna aliqua.
+                                                    </li>
+                                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                        eiusmod
+                                                        tempor incididunt ut labore et dolore magna aliqua.
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal for ADITYA KESANUPALLI ends here-->
 
-                        <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInRight p-3" data-wow-delay="100ms"
+                        <div class="col-xl-3 col-lg-4 col-md-4 wow fadeInRight" data-wow-delay="100ms"
                              data-wow-duration="1000ms">
                             <!--Team One Single-->
-                            <div class="team-one__single">
+                            <div class="team-one__single" data-bs-toggle="modal" data-bs-target="#examplePasupathi">
                                 <div class="team-one__img">
                                     <img src="assets/images/team/team-page-img-6.jpg" alt="">
                                     <div class="team-one__social">
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
                                         <a href="#"><i class="fab fa-facebook"></i></a>
-                                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                        <a href="#"><i class="fab fa-instagram"></i></a>
+                                        <a href="https://www.linkedin.com/in/rathnasabapathy-pasupathi-699744144/"><i
+                                                class="fab fa-linkedin"></i></a>
                                     </div>
                                 </div>
                                 <div class="team-one__content">
@@ -542,6 +755,49 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- Modal for R. PASUPATHI starts here-->
+                        <div class="modal modal-lg modal-dialog-scrollable fade align-items-center"
+                             id="examplePasupathi"
+                             tabindex="-1" aria-labelledby="exampleModalPasupathi" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalPasupathi">R. PASUPATHI</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <img src="assets/images/team/team-page-img-6.jpg">
+                                                <div>
+                                                    <a href="#"><i class="fab fa-facebook"></i></a>
+                                                    <a href="https://www.linkedin.com/in/rathnasabapathy-pasupathi-699744144/"><i
+                                                            class="fab fa-linkedin"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <ul>
+                                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                        eiusmod
+                                                        tempor incididunt ut labore et dolore magna aliqua.
+                                                    </li>
+                                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                        eiusmod
+                                                        tempor incididunt ut labore et dolore magna aliqua.
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal for R. PASUPATHI ends here-->
                     </div>
                 </div>
                 <div class="d-flex justify-content-center align-items-center">
@@ -564,12 +820,12 @@
                 <div class="col-xl-12">
                     <div class="cta-one__inner wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
                         <div class="cta-one__title">
-                            <h2>Give you high-quality work that <br>satisfies your requirements.</h2>
+                            <h2>Get in touch with our experts</h2>
                         </div>
                         <div class="cta-one__btn-box">
                             <a href="contact.html" class="btn-style-one cta-one__btn">
                                 <i class="btn-curve"></i>
-                                <span class="btn-title">Discover More</span>
+                                <span class="btn-title">Contact Us</span>
                             </a>
                         </div>
                     </div>
@@ -595,10 +851,8 @@
                                 <p class="footer-widget__about-text">Great Experience for Professional Engineering
                                     Services</p>
                                 <div class="footer-widget__about-social">
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-facebook"></i></a>
-                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://www.linkedin.com/company/epcogen-private-limited/"><i
+                                            class="fab fa-linkedin"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -680,7 +934,7 @@
                     <div class="col-xl-12">
                         <div class="site-footer__bottom-inner">
                             <p class="site-footer__bottom-text">© 2020 Epcogen Pvt.Ltd | Designed by <a
-                                    href="https://varnalabs.in/">Varnalabs.in</a></p>
+                                    href="https://safyrus.com/">Safyrus.com</a></p>
                         </div>
                     </div>
                 </div>
@@ -707,7 +961,7 @@
         <ul class="mobile-nav__contact list-unstyled">
             <li>
                 <i class="fa fa-envelope"></i>
-                <a href="mailto:needhelp@packageName__.com">needhelp@kontin.com</a>
+                <a href="mailto:info@epcogen.com">info@epcogen.com</a>
             </li>
             <li>
                 <i class="fa fa-phone-alt"></i>
@@ -716,10 +970,7 @@
         </ul><!-- /.mobile-nav__contact -->
         <div class="mobile-nav__top">
             <div class="mobile-nav__social">
-                <a href="#" class="fab fa-twitter"></a>
-                <a href="#" class="fab fa-facebook-square"></a>
-                <a href="#" class="fab fa-pinterest-p"></a>
-                <a href="#" class="fab fa-instagram"></a>
+                <a href="https://www.linkedin.com/company/epcogen-private-limited/"><i class="fab fa-linkedin"></i></a>
             </div><!-- /.mobile-nav__social -->
         </div><!-- /.mobile-nav__top -->
     </div>
