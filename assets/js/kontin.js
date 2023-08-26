@@ -228,12 +228,6 @@
     });
   }
 
-
-
-
-
-
-
   if ($(".scroll-to-target").length) {
     $(".scroll-to-target").on("click", function () {
       var target = $(this).attr("data-target");
@@ -777,10 +771,6 @@
   });
 
 
-
-
-
-
   if ($(".before-after-twentytwenty").length) {
     $(".before-after-twentytwenty").each(function () {
       var Self = $(this);
@@ -802,23 +792,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 })(jQuery);
-function showDiv() {
-  document.getElementById('welcomeDiv').style.display = "block";
-}
+// function showDiv() {
+//   document.getElementById('welcomeDiv').style.display = "block";
+// }

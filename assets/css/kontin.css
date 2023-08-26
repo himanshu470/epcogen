@@ -6680,8 +6680,11 @@ ul {
 }
 
 /*=====Team Page======*/
-.team-page {
+.executive-team {
     padding: 120px 0 90px;
+}
+.team-page {
+    padding: 0px 0 90px;
 }
 
 /*--------------------------------------------------------------
@@ -6691,6 +6694,16 @@ ul {
     position: relative;
     display: block;
     padding: 120px 0 120px;
+}
+.mission-section {
+    position: relative;
+    display: block;
+    padding: 0px 0 120px;
+}
+.values-section {
+    position: relative;
+    display: block;
+    padding: 120px 0 0px;
 }
 
 .about-page__images-box {
